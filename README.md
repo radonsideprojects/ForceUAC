@@ -1,6 +1,5 @@
 # shitty-dropper
-Shitty malware dropper written on C#
-Fileless
+Shitty fileless dropper written on C#
 ## ToDo
 - [ ] Peristance
 - [ ] Builder
