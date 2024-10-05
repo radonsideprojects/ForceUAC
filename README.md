@@ -6,4 +6,4 @@ Shitty fileless dropper written on C#
 - [ ] Dropper builder
 - [ ] Persistance
 ## Responsibility
-I am NOT responsible to crap you do with this.
+I am NOT responsible for crap you do with this.
