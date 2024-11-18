@@ -1,4 +1,2 @@
-# shitty-dropper
-Shitty fileless dropper written on C#
-- Downloads shit from the internet
-- Forces UAC window onto your ass
+# Force UAC
+Constantly opens up the UAC window
